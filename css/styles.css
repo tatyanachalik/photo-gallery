@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.gallery {
+    max-width:900px;
+    margin: 30px auto 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
+
+
+#search {
+    display: block;
+    padding: 10px;
+    border: 1.5px solid lightgrey;
+    border-radius: 5px 5px;
+    margin: 40px auto 0 ;
+    width: 40%;
+}
