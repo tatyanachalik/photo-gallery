@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(195, 214, 231);
+}
+
 .gallery {
     max-width:900px;
     margin: 30px auto 0;
@@ -12,14 +16,25 @@
 
 a.photo {
     margin: auto;
+    
+}
+
+img {
+    border-radius: 10px 10px;
+    box-shadow: 5px 5px 5px rgb(106, 124, 148);
 }
 
 
 #search {
     display: block;
     padding: 10px;
-    border: 1.5px solid lightgrey;
+    border: 1.5px solid rgb(106, 124, 148);
     border-radius: 5px 5px;
     margin: 40px auto 0 ;
     width: 40%;
+}
+
+input,
+input::placeholder {
+    color:rgb(106, 124, 148);
 }
