@@ -7,11 +7,12 @@ body {
 }
 
 h1 {
-    font-family: 'Sue Ellen Francisco', cursive;
+    font-family: 'Khand', sans-serif;
+    font-weight: 600;
     text-align: center;
     margin: 30px 0 0 0;
     color: rgb(80, 124, 181);
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .gallery {
@@ -35,7 +36,7 @@ img {
 
 #search {
     display: block;
-    padding-left: 10px;
+    padding: 10px;
     border: 1.5px solid rgb(141, 177, 225);
     border-radius: 5px 5px;
     margin: 20px auto 0 ;
@@ -49,14 +50,19 @@ img {
 
 input,
 input::placeholder {
+    font-family: 'Khand', sans-serif;
+    font-weight: 400;
     color:rgb(117, 153, 200);
-    font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 23px;
+    font-size: 15px;
 }
 
 @media (min-width: 1024px) {
     #search {
         width: 40%;
+    }
+
+    h1 {
+        font-size: 40px;
     }
 }
 
