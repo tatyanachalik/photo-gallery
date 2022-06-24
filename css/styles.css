@@ -3,7 +3,15 @@
 }
 
 body {
-    background-color: rgb(195, 214, 231);
+    background-color: rgb(201, 220, 235);
+}
+
+h1 {
+    font-family: 'Sue Ellen Francisco', cursive;
+    text-align: center;
+    margin: 30px 0 0 0;
+    color: rgb(80, 124, 181);
+    font-size: 40px;
 }
 
 .gallery {
@@ -21,20 +29,29 @@ a.photo {
 
 img {
     border-radius: 10px 10px;
-    box-shadow: 5px 5px 5px rgb(106, 124, 148);
+    box-shadow: 5px 5px 5px rgb(106, 124, 148, 0.6);
 }
 
 
 #search {
     display: block;
-    padding: 10px;
-    border: 1.5px solid rgb(106, 124, 148);
+    padding-left: 10px;
+    border: 1.5px solid rgb(141, 177, 225);
     border-radius: 5px 5px;
-    margin: 40px auto 0 ;
+    margin: 20px auto 0 ;
     width: 40%;
+}
+
+#search:focus {
+  outline: none;
+  border: 2px solid rgb(80, 124, 181);
 }
 
 input,
 input::placeholder {
-    color:rgb(106, 124, 148);
+    color:rgb(117, 153, 200);
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 23px;
 }
+
+
