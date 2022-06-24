@@ -39,7 +39,7 @@ img {
     border: 1.5px solid rgb(141, 177, 225);
     border-radius: 5px 5px;
     margin: 20px auto 0 ;
-    width: 40%;
+    width: 60%;
 }
 
 #search:focus {
@@ -54,4 +54,9 @@ input::placeholder {
     font-size: 23px;
 }
 
+@media (min-width: 1024px) {
+    #search {
+        width: 40%;
+    }
+}
 
